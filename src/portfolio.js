@@ -29,7 +29,7 @@ const projects = [
   {
     name: 'ts-run-length',
     description:
-      'A cli-app implementation of run-length algorith, which helps you to encode or decode your text files',
+      'A cli-app implementation of run-length algorithm, which helps you to encode or decode your text files',
     stack: ['TypeScript', 'Yargs'],
     sourceCode: 'https://github.com/nhulox97/ts-run-length',
   },
