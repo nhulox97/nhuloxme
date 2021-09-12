@@ -1,6 +1,6 @@
 const header = {
   // all the properties are optional - can be left empty or deleted
-  homepage: 'https://rajshekhar26.github.io/cleanfolio',
+  homepage: '/',
   title: 'nhulox97',
 }
 
@@ -23,24 +23,22 @@ const projects = [
     name: 'base-express-sequelize-api',
     description:
       'This is template-like project where I set up express + mongoose to build stable and scalable REST API\'s. Includes error handling for mongoose or express exceptions',
-    stack: ['SASS', 'TypeScript', 'React'],
+    stack: ['Express', 'Javascript', 'Mongoose'],
     sourceCode: 'https://github.com/nhulox97/base-express-sequelize-api',
   },
   {
-    name: 'Project 2',
+    name: 'ts-run-length',
     description:
-      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
-    stack: ['SASS', 'TypeScript', 'React'],
-    sourceCode: 'https://github.com',
-    livePreview: 'https://github.com',
+      'A cli-app implementation of run-length algorith, which helps you to encode or decode your text files',
+    stack: ['TypeScript', 'Yargs'],
+    sourceCode: 'https://github.com/nhulox97/ts-run-length',
   },
   {
-    name: 'Project 3',
+    name: 'base-react-app',
     description:
-      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
-    stack: ['SASS', 'TypeScript', 'React'],
-    sourceCode: 'https://github.com',
-    livePreview: 'https://github.com',
+      'A dashboard template app built with React, Redux and Tailwind',
+    stack: ['Tailwind CSS', 'JSX', 'React', 'Redux'],
+    sourceCode: 'https://github.com/wazunga/base-react-app',
   },
 ]
 
