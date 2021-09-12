@@ -8,8 +8,7 @@ const about = {
   // all the properties are optional - can be left empty or deleted
   name: 'Sergio Bernal',
   role: 'Back End Engineer',
-  description:
-    'Adipisicing sit fugit ullam unde aliquid sequi Facilis soluta facilis perspiciatis corporis nulla aspernatur. Autem eligendi rerum delectus modi quisquam? Illo ut quasi nemo ipsa cumque perspiciatis! Maiores minima consectetur.',
+  description: "I'm a developer located on LATAM, currently working as Back End developer, but with good skills on Front End. Good skills on: solving problems, define requirements, problem analysis and also good to work with multi-disciplinary teams.",
   resume: 'https://github.com/nhulox97/english-resume/blob/main/main.pdf',
   social: {
     linkedin: 'https://www.linkedin.com/in/sergio-abc/',
@@ -21,12 +20,11 @@ const projects = [
   // projects can be added an removed
   // if there are no projects, Projects section won't show up
   {
-    name: 'Project 1',
+    name: 'base-express-sequelize-api',
     description:
-      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
+      'This is template-like project where I set up express + mongoose to build stable and scalable REST API\'s. Includes error handling for mongoose or express exceptions',
     stack: ['SASS', 'TypeScript', 'React'],
-    sourceCode: 'https://github.com',
-    livePreview: 'https://github.com',
+    sourceCode: 'https://github.com/nhulox97/base-express-sequelize-api',
   },
   {
     name: 'Project 2',
@@ -49,18 +47,22 @@ const projects = [
 const skills = [
   // skills can be added or removed
   // if there are no skills, Skills section won't show up
-  'HTML',
-  'CSS',
-  'JavaScript',
   'TypeScript',
+  'NestJS',
+  'Postgres',
+  'MongoDB',
+  'Redis',
+  'TypeORM',
+  '0Auth 2.0',
+  'JWT',
+  'JSX',
+  'JavaScript',
   'React',
   'Redux',
-  'SASS',
-  'Material UI',
+  'Tailwind CSS',
   'Git',
   'CI/CD',
   'Jest',
-  'Enzyme',
 ]
 
 const contact = {
